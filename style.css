@@ -1,7 +1,7 @@
 :root {
-  --main-color: #ed6041;
-  --secondary-color: #fbf8fd;
-  --background-color: #361f35;
+  --main-color: #00b4b4;
+  --secondary-color: #b768c7;
+  --background-color: #053b4e;
   --text-color: #fbf8fd;
   --dark-mode: #1f1f1f;
 }
@@ -190,7 +190,10 @@ header button {
   color: var(--background-color);
 }
 
-.overview h3,
+.overview h3 {
+    color: var(--background-color)
+}
+
 .assignment2 h3 {
   color: var(--background-color);
 }
@@ -408,6 +411,10 @@ body.dark-mode #darkModeButton .dark-mode-off {
 
 #assignments a {
     color: var(--main-color)
+}
+
+#overview a {
+    color: var(--background-color)
 }
 
 .product_text {
