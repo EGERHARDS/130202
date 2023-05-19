@@ -103,9 +103,8 @@ nav {
 }
 
 nav img {
-    width: 75px;
-    height: 75px;
-
+  width: 75px;
+  height: 75px;
 }
 
 nav li {
@@ -180,20 +179,23 @@ header button {
   min-height: 40vh;
 }
 
-.product_text {
+.overview,
+.assignment2 {
   width: 50vw;
   min-width: 300px;
 }
 
-.product_text h2 {
-    color: var(--background-color)
+.overview h2,
+.assignment2 h2 {
+  color: var(--background-color);
 }
 
-.product_text h3 {
-    color: var(--background-color)
+.overview h3,
+.assignment2 h3 {
+  color: var(--background-color);
 }
 
-#overview article:first-child .product_text {
+#overview article:first-child .overview {
   width: 75vw;
   min-width: 300px;
 }
@@ -292,8 +294,8 @@ footer section div {
 }
 
 h2.logo img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 /* Dark mode */
@@ -374,6 +376,84 @@ body.dark-mode #darkModeButton .dark-mode-on {
 body.dark-mode #darkModeButton .dark-mode-off {
   transform: translateY(-200%);
 }
+
+/* Assignments page */
+
+#assignments {
+  padding: 5rem 3rem;
+  background-color: var(--background-color);
+}
+
+#assignments h2 {
+  font-size: 3.052rem;
+  line-height: 3.5rem;
+}
+
+#assignments article {
+  display: flex;
+  min-height: 50vh;
+  padding: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#assignments article:first-child {
+  min-height: 40vh;
+}
+
+#assignments p {
+  color: var(--text-color);
+}
+
+#assignments a {
+    color: var(--main-color)
+}
+
+.product_text {
+  width: 50vw;
+  min-width: 300px;
+}
+
+.product_text h2 {
+  color: var(--main-color);
+}
+
+.product_text h3 {
+  color: var(--main-color);
+}
+
+#assignments article:first-child .product_text {
+  width: 75vw;
+  min-width: 300px;
+}
+
+.product_graphics {
+  width: 15vw;
+  height: 15vw;
+  min-width: 150px;
+  min-height: 150px;
+  padding: 1rem;
+  margin: 3rem;
+  background-color: var(--secondary-color);
+  border-radius: 300px;
+}
+.product_graphics object {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery img {
+    display: flex;
+    max-width: 100%;
+}
+
+figcaption {
+    padding: 10px;
+    color: var(--text-color);
+    font-size: x-small;
+}
+
 
 @media screen and (max-width: 768px) {
   html {
