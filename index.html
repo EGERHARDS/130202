@@ -1,15 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>13.02.02 - Portfolio</title>
-</head>
-<body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <!-- Template adapted from https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/ -->
+    <!-- Inspired by https://cequence.io/ & https://wage.numbered.studio/ for educational purpose-->
+    <!-- Lorem Ipsum from https://loremizr.monkeymatt.com/ -->
+    <!-- SVGs from https://www.svgrepo.com/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+        <a class="logo" href="index.html"><img src="graphics/logo.svg" alt="Logo"></a>
+        <div>
+          <ul>
+            <li><a href="#module">The module</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#assignments">Assignments</a></li>
+          </ul>
+        </div>
+        <a href="#contactme"><button type="button">Contact me &#x2794;</button></a>
+      </ul>
+    </nav>
+    <header>
+      <div class="header_text">
+        <h1>Welcome to my portfolio!</h1>
+        <p>
+          On this page you will find a compilation of solutions developed for the 'Design for Developers' module.
+        </p>
+        <a href="#assignments"><button class="dark_button" type="button">List of assignments &#x2794;</button></a>
+      </div>
+      <div class="header_graphics">
+        <object data="graphics/website-optimization-layout-svgrepo-com.svg"> </object>
+      </div>
+    </header>
+    <main>
+    <section id="module">
+      <div>
+        <h2>
+          Design for Developers
+        </h2>
+        Throughout the Design for Developers module, I managed to learn about the key aspects of what it takes to incorporate colors, fonts and other UI elements into a website. More importantly, to do this in a way which makes it as user-friendly as possible as well as easier for me as a developer.
+      </div>
+    </section>
+    <section id="overview">
+      <article>
+        <section class="product_text">
+          <h2>Assignment overview</h2>
+          <p>
+            In this section you can find an overview of two of the assignments developed for the DfD module. To view the full description of the tasks, <a href="assignments.html">see the Assignments page here</a>.
+          </p>
+        </section>
+      </article>
+      <article>
+        <section class="product_graphics">
+          <object data="graphics/website-configuration-setting-svgrepo-com.svg"> </object>
+        </section>
+        <section class="product_text">
+          <h3>13C.01.01 Fonts and UI components</h3>
+          <p>
+            In this task, I had to redesign a template of a website with the focus on choosing the right font hierarchy.
+          </p>
+          <a href="">View the solution &#x2794;</a>
+        </section>
+      </article>
+      <article>
+        <section class="product_graphics">
+          <object data="graphics/website-network-server-svgrepo-com.svg"> </object>
+        </section>
+        <section class="product_text">
+          <h3>
+            13C.01.02 Working with colors and animations
+          </h3>
+          <p>
+            In this assignment, I had to another redesign - this, however, focusing on usage of color on the site.
+          </p>
+          <a href="">View the solution &#x2794;</a>
+        </section>
+      </article>
+    </section>
+    
+    </main>
+    <footer>
+      <section>
+        <a href="index.html"><h2 class="logo"><img src="graphics/logo-white.svg" alt="Logo"></h2></a>
+        <ul>
+          <li><a href="">edga0327@stud.kea.dk</a></li>
+          <li><a href="">+45 42 91 46 17</a></li>
+        </ul>
+      </section>
+      <section class="left">
+        <div>
+          <h3>Design for Developers</h3>
+          <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#assignments">Assignments</a></li>
+            <li><a href="#contactme">Contact me</a></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
